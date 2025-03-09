@@ -1,6 +1,6 @@
 from dash import Dash, html
 
-app = Dash(__name__, use_pages=True, title='Data Scout FM')
+app = Dash(__name__, title='Data Scout FM')
 server = app.server
 
 app.layout = html.Div([html.H1('Hello World!')])
